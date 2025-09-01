@@ -10,7 +10,7 @@
              * რიცხვი უნდა მიიღოთკონსოლიდან.
              */
 
-            Console.WriteLine("Enter a number: ");
+            Console.WriteLine("Enter a number to check: ");
             int input = Convert.ToInt32(Console.ReadLine());
             if (input % 5 == 0)
             {
