@@ -9,7 +9,7 @@
 
                 Console.WriteLine("Ani Liparteliani");
 
-                Console.WriteLine("Enter input as text: ");
+                Console.WriteLine("Enter input: ");
                 string input = Console.ReadLine();
                 Console.WriteLine(input);
             
