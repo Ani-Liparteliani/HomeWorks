@@ -77,7 +77,7 @@
             int x1 = 5;
             int y1 = 10;
             int k;
-            k = x;
+            k = x1;
             x1 = y;
             y1 = k;
             Console.WriteLine(x1);
@@ -111,6 +111,11 @@
             for(int i = 2; i < n; i +=2)
             { 
                 Console.WriteLine(i*i);
+            }
+            for(int i =0; i < n; i++)
+            {
+                if(i%2 == 0) Console.WriteLine(Math.Pow(i,2));
+                      
             }
 
             #endregion
